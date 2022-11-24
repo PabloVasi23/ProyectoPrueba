@@ -1,0 +1,52 @@
+.background-body{
+    background-color: #ebebd3;
+    background: linear-gradient(to right, #eeca91, #ebebd3 );
+}
+/* LOGIN */
+.bg{
+    background-image: url(https://historia.nationalgeographic.com.es/medio/2021/03/11/coliseo-de-roma_1f63ec38_800x800.jpg);
+    background-size: cover;
+}
+/* GALERIA */
+.galeria img:hover{
+    transform:scale(1.2) ;
+    -webkit-transform:scale(1.2) ;
+    -moz-transform:scale(1.2) ;
+    -ms-transform:scale(1.2) ;
+    -o-transform:scale(1.2) ;
+}
+/* NAVBAR Y FOOTER  */
+@media (max-width:800px){
+    .iconos-ocultos {
+        display: none;
+    }
+}
+/*Correcion error de borde */
+#dropdownMenuButton {
+border:none;
+}
+.colornav , .dropdown-item {
+background-color:#fefae0!important;
+}
+.texticoncolor {
+color: #283618!important;
+}
+.textnav {
+color: #BC6C25 !important;
+}
+.textnav:hover {
+opacity:100%!important;
+color: #606C38 !important;
+font-size:1.5rem;
+}
+.barra{
+    width: 10px;
+    height: 100px;
+    background-color: #283618;
+}
+textarea{
+    resize: none;
+}
+header{
+z-index: 99999;
+}
